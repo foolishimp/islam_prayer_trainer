@@ -1,0 +1,235 @@
+.quran-reader {
+    min-height: 100vh;
+    background-color: #FFFDFA;
+    padding: 3rem 1rem;
+  }
+  
+  .container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+  
+  .file-loader {
+    max-width: 48rem;
+    margin: 0 auto;
+    background-color: #FBF6E9;
+    border: 2px solid #D4B46A;
+    border-radius: 0.5rem;
+    padding: 3rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .file-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #8A6E3E;
+    color: #FBF6E9;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    font-size: 1.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .file-button:hover {
+    background-color: #725B33;
+  }
+  
+  .hidden-input {
+    display: none;
+  }
+  
+  .error-message {
+    color: #dc2626;
+    margin-top: 1rem;
+  }
+  
+  .format-info {
+    margin-top: 2rem;
+    color: #5C4B2A;
+  }
+  
+  .format-title {
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+    font-family: serif;
+  }
+  
+  .format-example {
+    text-align: left;
+    display: inline-block;
+    background-color: #FFFDFA;
+    padding: 2rem;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    overflow: auto;
+    max-width: 100%;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+    border: 1px solid #D4B46A;
+    font-family: monospace;
+  }
+  
+  .prayer-header {
+    text-align: center;
+    margin-bottom: 4rem;
+    background-color: #FBF6E9;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 3rem 2rem;
+    border: 2px solid #D4B46A;
+  }
+  
+  .arabic-title {
+    font-size: 3.75rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #5C4B2A;
+  }
+  
+  .english-title {
+    font-size: 1.5rem;
+    color: #8A6E3E;
+    font-family: serif;
+    margin-bottom: 2rem;
+  }
+  
+  .load-button {
+    padding: 0.75rem 2rem;
+    background-color: #8A6E3E;
+    color: #FBF6E9;
+    border: none;
+    border-radius: 0.375rem;
+    font-size: 1.125rem;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .load-button:hover {
+    background-color: #725B33;
+  }
+  
+  .prayer-stage {
+    margin-bottom: 4rem;
+    background-color: #FBF6E9;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .prayer-stage.active {
+    border: 2px solid #D4B46A;
+  }
+  
+  .stage-container {
+    max-width: 48rem;
+    margin: 0 auto;
+  }
+  
+  .stage-header {
+    border-bottom: 2px solid #D4B46A;
+    background-color: #F5ECD8;
+    padding: 1rem 2rem;
+  }
+  
+  .stage-title {
+    font-size: 1.5rem;
+    font-family: serif;
+    color: #5C4B2A;
+  }
+  
+  .stage-instruction {
+    color: #8A6E3E;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+  }
+  
+  .stage-content {
+    padding: 2rem;
+  }
+  
+  .text-container {
+    background-color: #FFFDFA;
+    border-radius: 0.75rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+    border: 1px solid #D4B46A;
+  }
+  
+  .arabic-text {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .word {
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 1rem;
+  }
+  
+  .word:hover {
+    color: #8A6E3E;
+    transition: color 0.3s ease;
+  }
+  
+  .letter {
+    display: inline-block;
+    font-size: 3rem;
+  }
+  
+  .letter:hover {
+    color: #D4B46A;
+    transition: color 0.3s ease;
+  }
+  
+  .transliteration {
+    color: #8A6E3E;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-family: serif;
+    text-align: center;
+    border-top: 2px solid #D4B46A;
+    padding-top: 1.5rem;
+  }
+  
+  .english-translation {
+    color: #5C4B2A;
+    font-size: 1.125rem;
+    line-height: 1.75;
+    font-family: serif;
+    text-align: center;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .play-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #8A6E3E;
+    color: #FBF6E9;
+    border: none;
+    border-radius: 0.375rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.125rem;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .play-button:hover {
+    background-color: #725B33;
+  }
+  
+  .stages-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }

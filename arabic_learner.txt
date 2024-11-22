@@ -1,0 +1,903 @@
+== Manifest ==
+src/FlashCards.js
+src/reportWebVitals.js
+src/App.css
+src/index.js
+src/index.css
+src/QuaranReader.js
+src/App.test.js
+src/setupTests.js
+src/logo.svg
+src/App.js
+src/QuaranReader.css
+
+== Content ==
+
+== Start of File ==
+File: src/FlashCards.js
+File Type: text/javascript
+Size: 0 bytes
+Last Modified: 1732290167.6184437
+Contents:
+
+== End of File ==
+
+== Start of File ==
+File: src/reportWebVitals.js
+File Type: text/javascript
+Size: 362 bytes
+Last Modified: 1732281609.40473
+Contents:
+const reportWebVitals = onPerfEntry => {
+  if (onPerfEntry && onPerfEntry instanceof Function) {
+    import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
+      getCLS(onPerfEntry);
+      getFID(onPerfEntry);
+      getFCP(onPerfEntry);
+      getLCP(onPerfEntry);
+      getTTFB(onPerfEntry);
+    });
+  }
+};
+
+export default reportWebVitals;
+
+== End of File ==
+
+== Start of File ==
+File: src/App.css
+File Type: text/css
+Size: 3598 bytes
+Last Modified: 1732290181.534021
+Contents:
+/* Existing Flashcard styles remain unchanged */
+.App {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Add new menu styles */
+.app-container {
+  min-height: 100vh;
+  background-color: #FFFDFA;
+}
+
+.app-menu {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFDFA;
+  padding: 2rem;
+}
+
+.menu-title {
+  font-size: 2.5rem;
+  color: #5C4B2A;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.menu-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  width: 100%;
+}
+
+.menu-button {
+  padding: 1.5rem 2rem;
+  font-size: 1.25rem;
+  background-color: #8A6E3E;
+  color: #FBF6E9;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-button:hover {
+  background-color: #725B33;
+}
+
+.back-button {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #8A6E3E;
+  color: #FBF6E9;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.back-button:hover {
+  background-color: #725B33;
+}
+
+/* Keep all existing flashcard styles below */
+.options-selector {
+  margin: 20px 0;
+  padding: 10px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.options-selector label {
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.options-selector input[type="radio"] {
+  margin-right: 5px;
+}
+
+.flashcard {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  margin: 20px 0;
+}
+
+.arabic-letter {
+  font-size: 100px;
+  margin: 20px 0;
+}
+
+.sound-hint {
+  font-size: 24px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.sound-hint-button {
+  display: block;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 5px;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.options.all-options {
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 100%;
+}
+
+.options button {
+  padding: 15px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.options button:hover {
+  background-color: #357abd;
+}
+
+.options button.correct {
+  background-color: #4caf50;
+}
+
+.options button.incorrect {
+  background-color: #f44336;
+}
+
+.options button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.progress {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.next-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.next-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.result {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  margin: 20px 0;
+}
+
+.sound-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  margin-left: 10px;
+  vertical-align: middle;
+  transition: transform 0.2s;
+  display: inline-block;
+}
+
+.sound-button:hover {
+  transform: scale(1.1);
+}
+
+.sound-button:active {
+  transform: scale(0.95);
+}
+
+/* Ensure the Arabic letter and sound button are aligned */
+.arabic-letter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+== End of File ==
+
+== Start of File ==
+File: src/index.js
+File Type: text/javascript
+Size: 535 bytes
+Last Modified: 1732281609.4044735
+Contents:
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+
+== End of File ==
+
+== Start of File ==
+File: src/index.css
+File Type: text/css
+Size: 366 bytes
+Last Modified: 1732281609.4043517
+Contents:
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+== End of File ==
+
+== Start of File ==
+File: src/QuaranReader.js
+File Type: text/javascript
+Size: 6024 bytes
+Last Modified: 1732284146.661621
+Contents:
+import React, { useState, useEffect } from 'react';
+import './QuranReader.css';
+
+const FileLoader = ({ onFileLoaded }) => {
+  const [error, setError] = useState(null);
+
+  const handleFileChange = (event) => {
+    const file = event.target.files[0];
+    if (!file) return;
+    setError(null);
+
+    if (!file.name.endsWith('.json')) {
+      setError('Please select a JSON file');
+      return;
+    }
+
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const data = JSON.parse(e.target.result);
+        if (!data.stages || !Array.isArray(data.stages)) {
+          setError('Invalid file format. File must contain a stages array.');
+          return;
+        }
+        onFileLoaded(data);
+      } catch (err) {
+        setError('Error parsing JSON file. Please check the file format.');
+      }
+    };
+    reader.onerror = () => {
+      setError('Error reading file');
+    };
+    reader.readAsText(file);
+  };
+
+  return (
+    <div className="file-loader">
+      <label className="file-label">
+        <span className="file-button">
+          Choose Prayer File
+          <input
+            type="file"
+            accept=".json"
+            onChange={handleFileChange}
+            className="hidden-input"
+          />
+        </span>
+      </label>
+      {error && <p className="error-message">{error}</p>}
+      <div className="format-info">
+        <p className="format-title">Expected JSON format:</p>
+        <pre className="format-example">
+{`{
+  "name": {
+    "arabic": "...",
+    "english": "..."
+  },
+  "stages": [
+    {
+      "name": "Stage Name",
+      "arabic": "...",
+      "english": "...",
+      "instruction": "..."
+    }
+  ]
+}`}
+        </pre>
+      </div>
+    </div>
+  );
+};
+
+const QuranReader = () => {
+  const [prayer, setPrayer] = useState(null);
+  const [utterance, setUtterance] = useState(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [currentStage, setCurrentStage] = useState(null);
+
+  useEffect(() => {
+    const synth = window.speechSynthesis;
+    const u = new SpeechSynthesisUtterance();
+    u.lang = 'ar-SA';
+    u.rate = 0.8;
+    u.pitch = 1;
+
+    synth.addEventListener('voiceschanged', () => {
+      const voices = synth.getVoices();
+      const arabicVoice = voices.find(voice => voice.lang.includes('ar'));
+      if (arabicVoice) {
+        u.voice = arabicVoice;
+      }
+    });
+
+    setUtterance(u);
+
+    return () => {
+      synth.cancel();
+      setIsPlaying(false);
+    };
+  }, []);
+
+  const speakText = (text, e) => {
+    if (!text) return;
+    
+    if (e) {
+      e.stopPropagation();
+    }
+    if (utterance && !isPlaying) {
+      const synth = window.speechSynthesis;
+      synth.cancel();
+      utterance.text = text;
+      synth.speak(utterance);
+    }
+  };
+
+  const TextWithLetters = ({ text }) => {
+    if (!text) return null;
+    
+    const words = text.split(' ');
+    
+    return (
+      <div className="arabic-text" dir="rtl">
+        {words.map((word, wordIndex) => (
+          <span
+            key={wordIndex}
+            onClick={(e) => speakText(word, e)}
+            className="word"
+          >
+            {word.split('').map((letter, letterIndex) => (
+              <span
+                key={letterIndex}
+                onClick={(e) => speakText(letter, e)}
+                className="letter"
+              >
+                {letter}
+              </span>
+            ))}
+          </span>
+        ))}
+      </div>
+    );
+  };
+
+  const PrayerStage = ({ stage, index }) => {
+    if (!stage || !stage.arabic) return null;
+    
+    const isActive = currentStage === index;
+
+    return (
+      <div className={`prayer-stage ${isActive ? 'active' : ''}`}>
+        <div className="stage-container">
+          <div className="stage-header">
+            <h3 className="stage-title">{stage.name || 'Unnamed Stage'}</h3>
+            {stage.instruction && (
+              <p className="stage-instruction">{stage.instruction}</p>
+            )}
+          </div>
+
+          <div className="stage-content">
+            <div className="text-container">
+              <div className="arabic-container">
+                <TextWithLetters text={stage.arabic} />
+              </div>
+
+              {stage.transliteration && (
+                <p className="transliteration">
+                  {stage.transliteration}
+                </p>
+              )}
+              
+              <p className="english-translation">
+                {stage.english || 'Translation not available'}
+              </p>
+            </div>
+
+            <div className="button-container">
+              <button
+                onClick={(e) => speakText(stage.arabic, e)}
+                className="play-button"
+              >
+                <span>🔊</span>
+                Play Full Text
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
+  const handleFileLoaded = (data) => {
+    if (!data || !data.stages || !Array.isArray(data.stages)) {
+      console.error('Invalid prayer data format');
+      return;
+    }
+    setPrayer(data);
+  };
+
+  if (!prayer) {
+    return <FileLoader onFileLoaded={handleFileLoaded} />;
+  }
+
+  return (
+    <div className="quran-reader">
+      <div className="container">
+        <div className="prayer-header">
+          <h1 className="arabic-title" dir="rtl">
+            {prayer.name?.arabic || 'صلاة'}
+          </h1>
+          <h2 className="english-title">
+            {prayer.name?.english || 'Prayer'}
+          </h2>
+          
+          <button
+            onClick={() => setPrayer(null)}
+            className="load-button"
+          >
+            Load Different Prayer
+          </button>
+        </div>
+
+        <div className="stages-container">
+          {prayer.stages?.filter(stage => stage && stage.arabic).map((stage, index) => (
+            <PrayerStage 
+              key={index}
+              stage={stage}
+              index={index}
+            />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default QuranReader;
+== End of File ==
+
+== Start of File ==
+File: src/App.test.js
+File Type: text/javascript
+Size: 246 bytes
+Last Modified: 1732281609.4042277
+Contents:
+import { render, screen } from '@testing-library/react';
+import App from './App';
+
+test('renders learn react link', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/learn react/i);
+  expect(linkElement).toBeInTheDocument();
+});
+
+== End of File ==
+
+== Start of File ==
+File: src/setupTests.js
+File Type: text/javascript
+Size: 241 bytes
+Last Modified: 1732281609.4048588
+Contents:
+// jest-dom adds custom jest matchers for asserting on DOM nodes.
+// allows you to do things like:
+// expect(element).toHaveTextContent(/react/i)
+// learn more: https://github.com/testing-library/jest-dom
+import '@testing-library/jest-dom';
+
+== End of File ==
+
+== Start of File ==
+File: src/logo.svg
+File Type: image/svg+xml
+Size: 2632 bytes
+Last Modified: 1732281609.4045942
+Reason: Binary File, Skipped
+== End of File ==
+
+== Start of File ==
+File: src/App.js
+File Type: text/javascript
+Size: 1275 bytes
+Last Modified: 1732290143.8451712
+Contents:
+import React, { useState } from 'react';
+import './App.css';
+import QuranReader from './QuranReader';
+import FlashCards from './FlashCards';  // We'll move the flashcard code here
+
+function App() {
+  const [currentApp, setCurrentApp] = useState(null);
+
+  if (currentApp === 'flashcards') {
+    return (
+      <div className="app-container">
+        <button className="back-button" onClick={() => setCurrentApp(null)}>
+          ← Back to Menu
+        </button>
+        <FlashCards />
+      </div>
+    );
+  }
+
+  if (currentApp === 'quran') {
+    return (
+      <div className="app-container">
+        <button className="back-button" onClick={() => setCurrentApp(null)}>
+          ← Back to Menu
+        </button>
+        <QuranReader />
+      </div>
+    );
+  }
+
+  return (
+    <div className="app-menu">
+      <h1 className="menu-title">Arabic Learning Tools</h1>
+      <div className="menu-buttons">
+        <button 
+          className="menu-button"
+          onClick={() => setCurrentApp('flashcards')}
+        >
+          Arabic Letters Flashcards
+        </button>
+        <button 
+          className="menu-button"
+          onClick={() => setCurrentApp('quran')}
+        >
+          Quran Reader
+        </button>
+      </div>
+    </div>
+  );
+}
+
+export default App;
+== End of File ==
+
+== Start of File ==
+File: src/QuaranReader.css
+File Type: text/css
+Size: 4414 bytes
+Last Modified: 1732284163.3620133
+Contents:
+.quran-reader {
+    min-height: 100vh;
+    background-color: #FFFDFA;
+    padding: 3rem 1rem;
+  }
+  
+  .container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+  
+  .file-loader {
+    max-width: 48rem;
+    margin: 0 auto;
+    background-color: #FBF6E9;
+    border: 2px solid #D4B46A;
+    border-radius: 0.5rem;
+    padding: 3rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .file-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #8A6E3E;
+    color: #FBF6E9;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    font-size: 1.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .file-button:hover {
+    background-color: #725B33;
+  }
+  
+  .hidden-input {
+    display: none;
+  }
+  
+  .error-message {
+    color: #dc2626;
+    margin-top: 1rem;
+  }
+  
+  .format-info {
+    margin-top: 2rem;
+    color: #5C4B2A;
+  }
+  
+  .format-title {
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+    font-family: serif;
+  }
+  
+  .format-example {
+    text-align: left;
+    display: inline-block;
+    background-color: #FFFDFA;
+    padding: 2rem;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    overflow: auto;
+    max-width: 100%;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+    border: 1px solid #D4B46A;
+    font-family: monospace;
+  }
+  
+  .prayer-header {
+    text-align: center;
+    margin-bottom: 4rem;
+    background-color: #FBF6E9;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 3rem 2rem;
+    border: 2px solid #D4B46A;
+  }
+  
+  .arabic-title {
+    font-size: 3.75rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #5C4B2A;
+  }
+  
+  .english-title {
+    font-size: 1.5rem;
+    color: #8A6E3E;
+    font-family: serif;
+    margin-bottom: 2rem;
+  }
+  
+  .load-button {
+    padding: 0.75rem 2rem;
+    background-color: #8A6E3E;
+    color: #FBF6E9;
+    border: none;
+    border-radius: 0.375rem;
+    font-size: 1.125rem;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .load-button:hover {
+    background-color: #725B33;
+  }
+  
+  .prayer-stage {
+    margin-bottom: 4rem;
+    background-color: #FBF6E9;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .prayer-stage.active {
+    border: 2px solid #D4B46A;
+  }
+  
+  .stage-container {
+    max-width: 48rem;
+    margin: 0 auto;
+  }
+  
+  .stage-header {
+    border-bottom: 2px solid #D4B46A;
+    background-color: #F5ECD8;
+    padding: 1rem 2rem;
+  }
+  
+  .stage-title {
+    font-size: 1.5rem;
+    font-family: serif;
+    color: #5C4B2A;
+  }
+  
+  .stage-instruction {
+    color: #8A6E3E;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+  }
+  
+  .stage-content {
+    padding: 2rem;
+  }
+  
+  .text-container {
+    background-color: #FFFDFA;
+    border-radius: 0.75rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+    border: 1px solid #D4B46A;
+  }
+  
+  .arabic-text {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .word {
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 1rem;
+  }
+  
+  .word:hover {
+    color: #8A6E3E;
+    transition: color 0.3s ease;
+  }
+  
+  .letter {
+    display: inline-block;
+    font-size: 3rem;
+  }
+  
+  .letter:hover {
+    color: #D4B46A;
+    transition: color 0.3s ease;
+  }
+  
+  .transliteration {
+    color: #8A6E3E;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-family: serif;
+    text-align: center;
+    border-top: 2px solid #D4B46A;
+    padding-top: 1.5rem;
+  }
+  
+  .english-translation {
+    color: #5C4B2A;
+    font-size: 1.125rem;
+    line-height: 1.75;
+    font-family: serif;
+    text-align: center;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .play-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #8A6E3E;
+    color: #FBF6E9;
+    border: none;
+    border-radius: 0.375rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.125rem;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .play-button:hover {
+    background-color: #725B33;
+  }
+  
+  .stages-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+== End of File ==
