@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 /* Main Container Styles */
 .prayer-container {
   max-width: 1000px;
