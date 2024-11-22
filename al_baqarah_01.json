@@ -1,0 +1,64 @@
+{
+    "name": {
+      "arabic": "البقرة",
+      "english": "Al-Baqarah (The Cow) - Opening Verses"
+    },
+    "stages": [
+      {
+        "name": "Bismillah",
+        "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        "english": "In the name of Allah, the Most Gracious, the Most Merciful",
+        "transliteration": "Bismillahi r-rahmani r-raheem",
+        "instruction": "Begin with seeking Allah's guidance"
+      },
+      {
+        "name": "Verse 1",
+        "arabic": "الم",
+        "english": "Alif, Lam, Meem",
+        "transliteration": "Alif Laam Meem",
+        "instruction": "These are the mystical letters whose meaning is known only to Allah"
+      },
+      {
+        "name": "Verse 2",
+        "arabic": "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ",
+        "english": "This is the Book about which there is no doubt, a guidance for those conscious of Allah",
+        "transliteration": "Dhalika al-kitabu la rayba feehi hudan lilmuttaqeen",
+        "instruction": "Acknowledge the certainty and guidance of the Quran"
+      },
+      {
+        "name": "Verse 3",
+        "arabic": "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنفِقُونَ",
+        "english": "Who believe in the unseen, establish prayer, and spend out of what We have provided for them",
+        "transliteration": "Allatheena yu'minoona bil ghaybi wa yuqeemoon as-salata wa mimma razaqnahum yunfiqoon",
+        "instruction": "Understand the qualities of the righteous"
+      },
+      {
+        "name": "Verse 4",
+        "arabic": "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنزِلَ إِلَيْكَ وَمَا أُنزِلَ مِن قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+        "english": "And who believe in what has been revealed to you [O Muhammad], and what was revealed before you, and of the Hereafter they are certain",
+        "transliteration": "Wallatheena yu'minoona bima onzila ilayka wa ma onzila min qablika wa bil-akhirati hum yooqinoon",
+        "instruction": "Learn about belief in divine revelations and the Hereafter"
+      },
+      {
+        "name": "Verse 5",
+        "arabic": "أُولَٰئِكَ عَلَىٰ هُدًى مِّن رَّبِّهِمْ ۖ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+        "english": "Those are upon [right] guidance from their Lord, and it is those who are the successful",
+        "transliteration": "Ola-ika 'ala hudan min rabbihim wa-ula-ika humul muflihoon",
+        "instruction": "Understand the reward of the righteous"
+      },
+      {
+        "name": "Verse 6",
+        "arabic": "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ لَا يُؤْمِنُونَ",
+        "english": "Indeed, those who disbelieve - it is all the same for them whether you warn them or do not warn them - they will not believe",
+        "transliteration": "Innal-latheena kafaroo sawa-on 'alayhim a-anthartahum am lam tunthirhum la yu'minoon",
+        "instruction": "Learn about those who reject guidance"
+      },
+      {
+        "name": "Verse 7",
+        "arabic": "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ ۖ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ ۖ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+        "english": "Allah has set a seal upon their hearts and upon their hearing, and over their vision is a veil. And for them is a great punishment",
+        "transliteration": "Khatamal-lahu 'ala quloobihim wa 'ala sam'ihim wa 'ala absarihim ghishawatun wa lahum 'athabun 'atheem",
+        "instruction": "Understand the consequence of persistent disbelief"
+      }
+    ]
+  }

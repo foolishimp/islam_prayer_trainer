@@ -1,0 +1,57 @@
+{
+    "name": {
+      "arabic": "الفاتحة",
+      "english": "Al-Fatiha (The Opening)"
+    },
+    "stages": [
+      {
+        "name": "Bismillah",
+        "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        "english": "In the name of Allah, the Most Gracious, the Most Merciful",
+        "transliteration": "Bismillahi r-rahmani r-raheem",
+        "instruction": "Begin with seeking Allah's guidance"
+      },
+      {
+        "name": "Verse 2",
+        "arabic": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+        "english": "All praise is due to Allah, Lord of the worlds",
+        "transliteration": "Al hamdu lillahi rabbil 'alamin",
+        "instruction": "Express gratitude to Allah"
+      },
+      {
+        "name": "Verse 3",
+        "arabic": "الرَّحْمَٰنِ الرَّحِيمِ",
+        "english": "The Most Gracious, the Most Merciful",
+        "transliteration": "Ar-Rahman ar-Raheem",
+        "instruction": "Acknowledge Allah's mercy"
+      },
+      {
+        "name": "Verse 4",
+        "arabic": "مَالِكِ يَوْمِ الدِّينِ",
+        "english": "Master of the Day of Judgment",
+        "transliteration": "Maliki yawmid-deen",
+        "instruction": "Recognize Allah's authority"
+      },
+      {
+        "name": "Verse 5",
+        "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+        "english": "You alone we worship, and You alone we ask for help",
+        "transliteration": "Iyyaka na'budu wa iyyaka nasta'een",
+        "instruction": "Declare devotion and seeking help"
+      },
+      {
+        "name": "Verse 6",
+        "arabic": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+        "english": "Guide us to the straight path",
+        "transliteration": "Ihdinas-sirat al-mustaqeem",
+        "instruction": "Ask for guidance"
+      },
+      {
+        "name": "Verse 7",
+        "arabic": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+        "english": "The path of those upon whom You have bestowed favor, not of those who have earned Your anger or of those who have gone astray",
+        "transliteration": "Sirat al-ladhina an'amta 'alayhim, ghayril-maghdubi 'alayhim wa lad-dalleen",
+        "instruction": "Specify the path of the righteous"
+      }
+    ]
+  }

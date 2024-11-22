@@ -1,0 +1,71 @@
+{
+    "name": {
+      "arabic": "البقرة",
+      "english": "Al-Baqarah (The Cow) - Section 3"
+    },
+    "stages": [
+      {
+        "name": "Verse 17",
+        "arabic": "مَثَلُهُمْ كَمَثَلِ الَّذِي اسْتَوْقَدَ نَارًا فَلَمَّا أَضَاءَتْ مَا حَوْلَهُ ذَهَبَ اللَّهُ بِنُورِهِمْ وَتَرَكَهُمْ فِي ظُلُمَاتٍ لَّا يُبْصِرُونَ",
+        "english": "Their example is that of one who kindled a fire, but when it illuminated what was around him, Allah took away their light and left them in darkness [so] they could not see",
+        "transliteration": "Mathaluhum kamathallal ladhi istawqada naran falammaa adaa'at maa hawlahu thahabal laahu binoorihim wa tarakahum fee zulumaatil laa yubsiroon",
+        "instruction": "Understand the parable of the hypocrites' spiritual darkness"
+      },
+      {
+        "name": "Verse 18",
+        "arabic": "صُمٌّ بُكْمٌ عُمْيٌ فَهُمْ لَا يَرْجِعُونَ",
+        "english": "Deaf, dumb and blind - so they will not return [to the right path]",
+        "transliteration": "Summun bukmun 'umyun fahum laa yarji'oon",
+        "instruction": "Learn about spiritual disabilities"
+      },
+      {
+        "name": "Verse 19",
+        "arabic": "أَوْ كَصَيِّبٍ مِّنَ السَّمَاءِ فِيهِ ظُلُمَاتٌ وَرَعْدٌ وَبَرْقٌ يَجْعَلُونَ أَصَابِعَهُمْ فِي آذَانِهِم مِّنَ الصَّوَاعِقِ حَذَرَ الْمَوْتِ ۚ وَاللَّهُ مُحِيطٌ بِالْكَافِرِينَ",
+        "english": "Or [it is] like a rainstorm from the sky within which is darkness, thunder and lightning. They put their fingers in their ears against the thunderclaps in dread of death. But Allah is encompassing of the disbelievers",
+        "transliteration": "Aw kasayyibim minas-samaaa'i feehi zulumaatunw wa ra'dunw wa barq; yaj'aloona asaabi'ahum feee aazaanihim minas sawaa'iqi hazaral mawt; wallaahu muheetum bil kaafireen",
+        "instruction": "Understand the parable of truth's impact on hypocrites"
+      },
+      {
+        "name": "Verse 20",
+        "arabic": "يَكَادُ الْبَرْقُ يَخْطَفُ أَبْصَارَهُمْ ۖ كُلَّمَا أَضَاءَ لَهُم مَّشَوْا فِيهِ وَإِذَا أَظْلَمَ عَلَيْهِمْ قَامُوا ۚ وَلَوْ شَاءَ اللَّهُ لَذَهَبَ بِسَمْعِهِمْ وَأَبْصَارِهِمْ ۚ إِنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+        "english": "The lightning almost snatches away their sight. Every time it lights [the way] for them, they walk therein; but when darkness comes over them, they stand [still]. And if Allah had willed, He could have taken away their hearing and their sight. Indeed, Allah is over all things competent",
+        "transliteration": "Yakadul barqu yakhtafu absaarahum kullamaaa adaaa'a lahum mashaw feehi wa izaaa azlama 'alaihim qaamoo; wa law shaaa'al laahu lathahaba bisam'ihim wa absaarihim; innal laaha 'alaa kulli shai'in Qadeer",
+        "instruction": "Learn about the hesitation of hypocrites between guidance and misguidance"
+      },
+      {
+        "name": "Verse 21",
+        "arabic": "يَا أَيُّهَا النَّاسُ اعْبُدُوا رَبَّكُمُ الَّذِي خَلَقَكُمْ وَالَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+        "english": "O mankind, worship your Lord, who created you and those before you, that you may become righteous",
+        "transliteration": "Yaaa ayyuhan naasu'budoo Rabbakumul lazee khalaqakum wallazeena min qablikum la'allakum tattaqoon",
+        "instruction": "Universal call to worship the Creator"
+      },
+      {
+        "name": "Verse 22",
+        "arabic": "الَّذِي جَعَلَ لَكُمُ الْأَرْضَ فِرَاشًا وَالسَّمَاءَ بِنَاءً وَأَنزَلَ مِنَ السَّمَاءِ مَاءً فَأَخْرَجَ بِهِ مِنَ الثَّمَرَاتِ رِزْقًا لَّكُمْ ۖ فَلَا تَجْعَلُوا لِلَّهِ أَندَادًا وَأَنتُمْ تَعْلَمُونَ",
+        "english": "[He] who made for you the earth a bed [spread out] and the sky a ceiling and sent down from the sky, rain and brought forth thereby fruits as provision for you. So do not attribute to Allah equals while you know [that there is nothing similar to Him]",
+        "transliteration": "Allazee ja'ala lakumul arda firaashanw wassamaaa'a binaaa'anw wa anzala minas samaaa'i maaa'an fa akhraja bihee minas samaraati rizqal lakum falaa taj'aloo lillaahi andaadanw wa antum ta'lamoon",
+        "instruction": "Reflect on Allah's signs in creation"
+      },
+      {
+        "name": "Verse 23",
+        "arabic": "وَإِن كُنتُمْ فِي رَيْبٍ مِّمَّا نَزَّلْنَا عَلَىٰ عَبْدِنَا فَأْتُوا بِسُورَةٍ مِّن مِّثْلِهِ وَادْعُوا شُهَدَاءَكُم مِّن دُونِ اللَّهِ إِن كُنتُمْ صَادِقِينَ",
+        "english": "And if you are in doubt about what We have sent down upon Our Servant [Muhammad], then produce a surah the like thereof and call upon your witnesses other than Allah, if you should be truthful",
+        "transliteration": "Wa in kuntum fee raibim mimmaa nazzalnaa 'alaa 'abdinaa faatoo bi Sooratim mim mislihee wad'oo shuhadaaa 'akum min doonil laahi in kuntum saadiqeen",
+        "instruction": "Challenge to those who doubt the Quran"
+      },
+      {
+        "name": "Verse 24",
+        "arabic": "فَإِن لَّمْ تَفْعَلُوا وَلَن تَفْعَلُوا فَاتَّقُوا النَّارَ الَّتِي وَقُودُهَا النَّاسُ وَالْحِجَارَةُ ۖ أُعِدَّتْ لِلْكَافِرِينَ",
+        "english": "But if you do not - and you will never be able to - then fear the Fire, whose fuel is men and stones, prepared for the disbelievers",
+        "transliteration": "Fa il lam taf'aloo wa lan taf'aloo fattaqun Naaral latee waqooduhan naasu walhijaarah; u'iddat lilkaafireen",
+        "instruction": "Warning about the consequences of disbelief"
+      },
+      {
+        "name": "Verse 25",
+        "arabic": "وَبَشِّرِ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ أَنَّ لَهُمْ جَنَّاتٍ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ ۖ كُلَّمَا رُزِقُوا مِنْهَا مِن ثَمَرَةٍ رِّزْقًا ۙ قَالُوا هَٰذَا الَّذِي رُزِقْنَا مِن قَبْلُ ۖ وَأُتُوا بِهِ مُتَشَابِهًا ۖ وَلَهُمْ فِيهَا أَزْوَاجٌ مُّطَهَّرَةٌ ۖ وَهُمْ فِيهَا خَالِدُونَ",
+        "english": "And give good tidings to those who believe and do righteous deeds that they will have gardens [in Paradise] beneath which rivers flow. Whenever they are provided with a provision of fruit therefrom, they will say, 'This is what we were provided with before.' And it is given to them in likeness. And they will have therein purified spouses, and they will abide therein eternally",
+        "transliteration": "Wa bashshiril lazeena aamanoo wa 'amilus saalihaati anna lahum Jannaatin tajree min tahtihal anhaar; kullamaa ruziqoo minhaa min samaratir rizqan qaaloo haazal lazee ruziqnaa min qablu wa utoo bihee mutashaabihaa wa lahum feehaaa azwaajum mutahharatunw wa hum feehaa khaalidoon",
+        "instruction": "Learn about the rewards of the believers"
+      }
+    ]
+  }

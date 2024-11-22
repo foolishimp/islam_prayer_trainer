@@ -1,0 +1,113 @@
+{
+  "name": {
+    "arabic": "صلاة",
+    "english": "Two Rakah Prayer"
+  },
+  "stages": [
+    {
+      "name": "Opening Intention (Niyyah)",
+      "arabic": "نَوَيْتُ أُصَلِّي فَرْضَ الظُّهْرِ أَرْبَعَ رَكَعَاتٍ لِلهِ تَعَالَى",
+      "transliteration": "Nawaitu usalli fardal zuhri arba'a raka'atin lillahi ta'ala",
+      "english": "I intend to pray the obligatory Dhuhr prayer, four rak'at for Allah, the Exalted",
+      "instruction": "Make intention in heart, no need to say out loud"
+    },
+    {
+      "name": "Opening Takbeer",
+      "arabic": "اللهُ أَكْبَرُ",
+      "transliteration": "Allahu Akbar",
+      "english": "Allah is the Greatest",
+      "instruction": "Raise hands to ears and say while standing"
+    },
+    {
+      "name": "Opening Supplication (Istiftah)",
+      "arabic": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ وَتَبَارَكَ اسْمُكَ وَتَعَالَى جَدُّكَ وَلاَ إِلَهَ غَيْرُكَ",
+      "transliteration": "Subhanaka Allahumma wa bihamdika wa tabarakasmuka wa ta'ala jadduka wa la ilaha ghairuk",
+      "english": "Glory be to You, O Allah, and praise. Blessed is Your name and exalted is Your majesty. There is no god but You",
+      "instruction": "Recite quietly while standing"
+    },
+    {
+      "name": "Ta'awwudh",
+      "arabic": "أَعُوذُ بِاللهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+      "transliteration": "A'udhu billahi minash shaitanir rajim",
+      "english": "I seek refuge in Allah from Satan, the accursed",
+      "instruction": "Recite quietly before Surah Al-Fatiha"
+    },
+    {
+      "name": "Surah Al-Fatiha",
+      "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ مَٰلِكِ يَوْمِ ٱلدِّينِ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+      "transliteration": "Bismillahir Rahmanir Raheem. Alhamdu lillahi rabbil 'alamin. Ar-Rahmanir-Raheem. Maliki yawmid-din. Iyyaka na'budu wa iyyaka nasta'in. Ihdinas-siratal-mustaqim. Siratal-ladhina an'amta 'alayhim ghayril-maghdubi 'alayhim wa lad-dallin",
+      "english": "In the name of Allah, the Most Gracious, the Most Merciful. All praise is due to Allah, Lord of the worlds. The Most Gracious, the Most Merciful. Master of the Day of Judgment. You alone we worship, and You alone we ask for help. Guide us to the straight path. The path of those upon whom You have bestowed favor, not of those who have earned Your anger or of those who have gone astray",
+      "instruction": "Recite the complete Surah Al-Fatiha"
+    },
+    {
+      "name": "Surah Al-Ikhlas",
+      "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ ٱللَّهُ ٱلصَّمَدُ لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+      "transliteration": "Qul huwa Allahu ahad. Allahus-samad. Lam yalid wa lam yulad. Wa lam yakun lahu kufuwan ahad",
+      "english": "Say, \"He is Allah, [who is] One. Allah, the Eternal Refuge. He neither begets nor is born. Nor is there to Him any equivalent\"",
+      "instruction": "Recite after Al-Fatiha"
+    },
+    {
+      "name": "Ruku Takbeer",
+      "arabic": "اللهُ أَكْبَرُ",
+      "transliteration": "Allahu Akbar",
+      "english": "Allah is the Greatest",
+      "instruction": "Say while going down to bowing position"
+    },
+    {
+      "name": "Ruku Dhikr",
+      "arabic": "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
+      "transliteration": "Subhana Rabbiyal Adheem",
+      "english": "Glory be to my Lord, the Most Great",
+      "instruction": "Repeat three times while bowing"
+    },
+    {
+      "name": "Rising from Ruku",
+      "arabic": "سَمِعَ اللهُ لِمَنْ حَمِدَهُ رَبَّنَا وَلَكَ الْحَمْدُ",
+      "transliteration": "Sami'allahu liman hamidah, Rabbana wa lakal hamd",
+      "english": "Allah hears those who praise Him. Our Lord, to You belongs all praise",
+      "instruction": "Say while rising and after standing"
+    },
+    {
+      "name": "Sujud Takbeer",
+      "arabic": "اللهُ أَكْبَرُ",
+      "transliteration": "Allahu Akbar",
+      "english": "Allah is the Greatest",
+      "instruction": "Say while going down to prostration"
+    },
+    {
+      "name": "Sujud Dhikr",
+      "arabic": "سُبْحَانَ رَبِّيَ الْأَعْلَى",
+      "transliteration": "Subhana Rabbiyal A'la",
+      "english": "Glory be to my Lord, the Most High",
+      "instruction": "Repeat three times while prostrating"
+    },
+    {
+      "name": "Sitting between Sujud",
+      "arabic": "رَبِّ اغْفِرْ لِي",
+      "transliteration": "Rabbigh-fir lee",
+      "english": "My Lord, forgive me",
+      "instruction": "Say while sitting between prostrations"
+    },
+    {
+      "name": "Final Tashahhud",
+      "arabic": "التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ، السَّلاَمُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ، السَّلاَمُ عَلَيْنَا وَعَلَى عِبَادِ اللهِ الصَّالِحِينَ، أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+      "transliteration": "At-tahiyyatu lillahi was-salawatu wat-tayyibatu, as-salamu 'alayka ayyuhan-nabiyyu wa rahmatullahi wa barakatuh, as-salamu 'alayna wa 'ala 'ibadillahis-salihin, ash-hadu alla ilaha illallahu wa ash-hadu anna Muhammadan 'abduhu wa rasuluh",
+      "english": "All greetings, prayers and pure words are for Allah. Peace be upon you, O Prophet, and the mercy of Allah and His blessings. Peace be upon us and upon the righteous servants of Allah. I bear witness that there is no god but Allah, and I bear witness that Muhammad is His servant and messenger",
+      "instruction": "Recite while sitting in final position"
+    },
+    {
+      "name": "Closing Salam (Right)",
+      "arabic": "السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ",
+      "transliteration": "As-salamu 'alaykum wa rahmatullah",
+      "english": "Peace and mercy of Allah be upon you",
+      "instruction": "Turn head to the right"
+    },
+    {
+      "name": "Closing Salam (Left)",
+      "arabic": "السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ",
+      "transliteration": "As-salamu 'alaykum wa rahmatullah",
+      "english": "Peace and mercy of Allah be upon you",
+      "instruction": "Turn head to the left"
+    }
+  ]
+}
