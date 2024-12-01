@@ -1,0 +1,176 @@
+{
+  "name": {
+    "arabic": "عبارات إسلامية",
+    "english": "Islamic Phrases & Travel Arabic"
+  },
+  "stages": [
+    {
+      "name": "Peace Greeting",
+      "arabic": "السَّلامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكاتُهُ",
+      "transliteration": "As-salaam-u-alaikum wa rahmatullahi wa barakatuh",
+      "english": "Peace be upon you and Allah's mercy and blessings",
+      "instruction": "Standard Islamic greeting - can be shortened to just 'As-salaam-u-alaikum'"
+    },
+    {
+      "name": "Greeting Response",
+      "arabic": "وَعَلَيْكُمُ السَّلامُ وَرَحْمَةُ اللهِ وَبَرَكاتُهُ",
+      "transliteration": "Wa-alaikum-as-salaam wa rahmatullahi wa barakatuh",
+      "english": "And upon you be peace and Allah's mercy and blessings",
+      "instruction": "Always respond to the greeting with equal or better greeting"
+    },
+    {
+      "name": "Morning Greeting",
+      "arabic": "صَباح الخَير",
+      "transliteration": "Sabah al-khair",
+      "english": "Good morning",
+      "instruction": "Used in the morning until noon"
+    },
+    {
+      "name": "Evening Greeting",
+      "arabic": "مَساء الخَير",
+      "transliteration": "Masa' al-khair",
+      "english": "Good evening",
+      "instruction": "Used in the evening and night"
+    },
+    {
+      "name": "Goodbye (Islamic)",
+      "arabic": "في أمان الله",
+      "transliteration": "Fee amanillah",
+      "english": "In Allah's protection",
+      "instruction": "Common Islamic farewell"
+    },
+    {
+      "name": "Casual Goodbye",
+      "arabic": "مَعَ السَّلامة",
+      "transliteration": "Ma'a as-salamah",
+      "english": "With peace/safety",
+      "instruction": "Common casual goodbye"
+    },
+    {
+      "name": "Thank God",
+      "arabic": "الحَمْدُ لله",
+      "transliteration": "Alhamdulillah",
+      "english": "All praise is due to Allah",
+      "instruction": "Used when expressing gratitude or satisfaction"
+    },
+    {
+      "name": "God Willing",
+      "arabic": "إن شاء الله",
+      "transliteration": "In sha Allah",
+      "english": "If Allah wills",
+      "instruction": "Used when talking about future events"
+    },
+    {
+      "name": "God Bless",
+      "arabic": "بارَكَ اللهُ فيك",
+      "transliteration": "Barak Allahu feek",
+      "english": "May Allah bless you",
+      "instruction": "Used to express gratitude or appreciation"
+    },
+    {
+      "name": "Excuse Me",
+      "arabic": "عَفواً",
+      "transliteration": "Afwan",
+      "english": "Excuse me/Pardon me",
+      "instruction": "Used to get attention or apologize"
+    },
+    {
+      "name": "Where is...? (Hajj)",
+      "arabic": "أين؟",
+      "transliteration": "Ayna?",
+      "english": "Where is...?",
+      "instruction": "Basic question word for locations"
+    },
+    {
+      "name": "Where is the Kaaba?",
+      "arabic": "أين الكَعْبة؟",
+      "transliteration": "Ayna al-Ka'bah?",
+      "english": "Where is the Kaaba?",
+      "instruction": "Important location question during Hajj"
+    },
+    {
+      "name": "Where is Safa and Marwa?",
+      "arabic": "أين الصَّفا والمَرْوة؟",
+      "transliteration": "Ayna as-Safa wal-Marwah?",
+      "english": "Where is Safa and Marwa?",
+      "instruction": "Important location question during Hajj"
+    },
+    {
+      "name": "I Need Help",
+      "arabic": "أحتاجُ مُساعَدة",
+      "transliteration": "Ahtaju musaa'adah",
+      "english": "I need help",
+      "instruction": "Essential phrase for emergencies"
+    },
+    {
+      "name": "I'm Lost",
+      "arabic": "أنا تائِه",
+      "transliteration": "Ana ta'ih",
+      "english": "I am lost",
+      "instruction": "Important phrase during Hajj"
+    },
+    {
+      "name": "Where is the Bathroom?",
+      "arabic": "أين دورة المياه؟",
+      "transliteration": "Ayna dawrat al-miyah?",
+      "english": "Where is the bathroom?",
+      "instruction": "Essential phrase for facilities"
+    },
+    {
+      "name": "I'm Tired",
+      "arabic": "أنا مُتْعَب",
+      "transliteration": "Ana mut'ab",
+      "english": "I am tired",
+      "instruction": "Useful phrase during long rituals"
+    },
+    {
+      "name": "I Need Water",
+      "arabic": "أحتاجُ ماء",
+      "transliteration": "Ahtaju maa'",
+      "english": "I need water",
+      "instruction": "Essential phrase in hot weather"
+    },
+    {
+      "name": "Which Way?",
+      "arabic": "في أي اتِّجاه؟",
+      "transliteration": "Fi ayyi ittijah?",
+      "english": "In which direction?",
+      "instruction": "Useful for navigation"
+    },
+    {
+      "name": "How Much?",
+      "arabic": "بِكَم؟",
+      "transliteration": "Bikam?",
+      "english": "How much?",
+      "instruction": "Used when shopping"
+    },
+    {
+      "name": "Yes/No",
+      "arabic": "نَعَم / لا",
+      "transliteration": "Na'am / La",
+      "english": "Yes / No",
+      "instruction": "Basic response words"
+    },
+    {
+      "name": "Thank You",
+      "arabic": "شُكْراً",
+      "transliteration": "Shukran",
+      "english": "Thank you",
+      "instruction": "Basic gratitude expression"
+    },
+    {
+      "name": "You're Welcome",
+      "arabic": "عَفْواً",
+      "transliteration": "Afwan",
+      "english": "You're welcome",
+      "instruction": "Response to thank you"
+    },
+    {
+      "name": "I Don't Understand",
+      "arabic": "لا أفْهَم",
+      "transliteration": "La afham",
+      "english": "I don't understand",
+      "instruction": "Useful when communication is difficult"
+    }
+  ]
+}
