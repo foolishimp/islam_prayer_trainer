@@ -1,0 +1,32 @@
+## Arabic Alphabet Reference
+
+| Letter | Start | Middle | End | Name | Phonetic Sound | Quranic Word Examples |
+|--------|-------|--------|-----|------|----------------|-----------------------|
+| ا      | ا     | ـا     | ـا  | Alif | "a" (long "aa") | **آية** (Āyah - verse), **الله** (Allāh - Allah)<br>**Middle:** **مَٰلِكِ** (Māliki - Master)<br>**End:** **رَحْمَةُ** (Raḥmatu - mercy) |
+| ب      | بـ    | ـبـ    | ـب  | Bāʾ  | "b"            | **بِسْمِ** (Bismi - in the name), **رَبِّ** (Rabbī - my Lord)<br>**Middle:** **عَبْدُهُ** (‘Abduhu - His servant)<br>**End:** **مُقِيمَ** (Muqīma - establisher) |
+| ت      | تـ    | ـتـ    | ـت  | Tāʾ  | "t"            | **تَعْبُدُ** (Ta‘budu - you worship), **ٱلطَّيِّبَاتُ** (Aṭ-ṭayyibātu - good things)<br>**Middle:** **مُسْتَقِيمَ** (Mustaqīma - straight)<br>**End:** **جَنَّاتٍ** (Jannātin - gardens) |
+| ث      | ثـ    | ـثـ    | ـث  | Thāʾ | "th" (think)   | **ثُمَّ** (Thumma - then), **ثَوَاب** (Thawāb - reward)<br>**Middle:** **مَثَلُ** (Mathalu - example)<br>**End:** **بَعَثْتَ** (Ba‘athta - You sent) |
+| ج      | جـ    | ـجـ    | ـج  | Jīm  | "j"            | **جَنَّة** (Jannat - paradise), **مَجِيدٌ** (Majīd - Glorious)<br>**Middle:** **رِجَالٌ** (Rijālun - men)<br>**End:** **أَحَدٍ** (Aḥadin - One) |
+| ح      | حـ    | ـحـ    | ـح  | Ḥāʾ  | "ḥ" (deep "h") | **ٱلْحَمْدُ** (Al-Ḥamdu - the praise), **رَحْمَةُ** (Raḥmah - mercy)<br>**Middle:** **مُحَمَّدٍ** (Muḥammadin - Muhammad)<br>**End:** **ٱلسَّلَامُ** (As-salāmu - peace) |
+| خ      | خـ    | ـخـ    | ـخ  | Khāʾ | "kh" (Bach)    | **خَلَقَ** (Khalaqa - He created), **خَيْر** (Khayr - good)<br>**Middle:** **مَخْلُوقَ** (Makhlūqa - created)<br>**End:** **مَلَٰئِكَةٍ** (Malā’ikatin - angels) |
+| د      | د     | ـد     | ـد  | Dāl  | "d"            | **دِينِ** (Dīni - religion), **مُحَمَّدٍ** (Muḥammadin - Muhammad)<br>**Middle:** **مَدِينَةَ** (Madīnata - city)<br>**End:** **أَحَدٌ** (Aḥadun - One) |
+| ذ      | ذ     | ـذ     | ـذ  | Dhāl | "dh" (this)    | **ذُرِّيَّتِي** (Dhurriyyatī - my descendants), **ذَٰلِكَ** (Dhālika - that)<br>**Middle:** **مُذْكِرٌ** (Mudhkirun - reminder)<br>**End:** **مَوْعِظَةٍ** (Maw‘iẓatin - admonition) |
+| ر      | ر     | ـر     | ـر  | Rāʾ  | "r" (rolled)   | **رَبِّ** (Rabbī - Lord), **غَفُورٌ** (Ghafūr - Forgiving)<br>**Middle:** **مَرْحَمَةٍ** (Marḥamatin - compassion)<br>**End:** **نَصِيرٌ** (Naṣīrun - Helper) |
+| ز      | ز     | ـز     | ـز  | Zāy  | "z"            | **زَكَاة** (Zakāh - charity), **عَزِيزٌ** (‘Azīz - Mighty)<br>**Middle:** **أَزْوَاجٌ** (Azwājun - spouses)<br>**End:** **غَنِيٌّ** (Ghanīyun - Rich) |
+| س      | سـ    | ـسـ    | ـس  | Sīn  | "s"            | **سَلَامُ** (Salāmu - peace), **صِرَاطَ** (Ṣirāṭa - path)<br>**Middle:** **رَسُولُ** (Rasūlu - Messenger)<br>**End:** **أَنْفُسٍ** (Anfusin - souls) |
+| ش      | شـ    | ـشـ    | ـش  | Shīn | "sh"           | **شَيْءٍ** (Shay’in - thing), **شَهِيدٍ** (Shahīdin - witness)<br>**Middle:** **مُشْرِكُونَ** (Mushrikūna - polytheists)<br>**End:** **مَعَاشٍ** (Ma‘āshin - livelihood) |
+| ص      | صـ    | ـصـ    | ـص  | Ṣād  | "ṣ" (emphatic "s") | **صَلَاةِ** (Ṣalāti - prayer), **صَالِحِينَ** (Ṣāliḥīna - righteous)<br>**Middle:** **مُصِيبَةٌ** (Muṣībatun - calamity)<br>**End:** **مَفْصُولٍ** (Mafṣūlin - detailed) |
+| ض      | ضـ    | ـضـ    | ـض  | Ḍād  | "ḍ" (emphatic "d") | **ضَالِّينَ** (Ḍāllīna - astray), **ضُرٍّ** (Ḍurrin - harm)<br>**Middle:** **مَضَاجِعَ** (Maḍāji‘a - resting places)<br>**End:** **مَرَضٍ** (Maraḍin - disease) |
+| ط      | طـ    | ـطـ    | ـط  | Ṭāʾ  | "ṭ" (emphatic "t") | **طَيِّبَاتِ** (Ṭayyibāti - good things), **مُسْتَقْرَارٍ** (Mustaqṭarin - resting place)<br>**Middle:** **بَاطِنٌ** (Bāṭinun - hidden)<br>**End:** **مَمَاتٍ** (Mamātin - death) |
+| ظ      | ظـ    | ـظـ    | ـظ  | Ẓāʾ  | "ẓ" (emphatic "dh") | **ظَلَمُوا** (Ẓalamū - they wronged), **مَوْعِظَةٍ** (Maw‘iẓatin - admonition)<br>**Middle:** **مَظْلُومٌ** (Maẓlūmun - oppressed)<br>**End:** **مَحْفُوظٍ** (Maḥfūẓin - preserved) |
+| ع      | عـ    | ـعـ    | ـع  | ‘Ayn | "‘" (throat)   | **عَلَيْكُمْ** (‘Alaykum - upon you), **عِبَادِ** (‘Ibādi - servants)<br>**Middle:** **مَعَ** (Ma‘a - with)<br>**End:** **مَسْمُوعٍ** (Masmu‘in - heard) |
+| غ      | غـ    | ـغـ    | ـغ  | Ghayn| "gh" (gargled "g") | **غَيْرِ** (Ghayri - not), **غَفُورٌ** (Ghafūrun - Forgiving)<br>**Middle:** **مَغْفِرَةٌ** (Maghfiratun - forgiveness)<br>**End:** **مَمْلُوكٍ** (Mamlūkin - owned) |
+| ف      | فـ    | ـفـ    | ـف  | Fāʾ  | "f"            | **فِي** (Fī - in), **فَضْلٍ** (Faḍlin - grace)<br>**Middle:** **أَنْفُسٍ** (Anfusin - souls)<br>**End:** **كُفُوًا** (Kufuwan - equivalent) |
+| ق      | قـ    | ـقـ    | ـق  | Qāf  | "q" (deep "k") | **قُلْ** (Qul - say), **مُقِيمَ** (Muqīma - establisher)<br>**Middle:** **تَقَبَّلْ** (Taqabbal - accept)<br>**End:** **مُسْتَقِيمٍ** (Mustaqīmin - straight) |
+| ك      | كـ    | ـكـ    | ـك  | Kāf  | "k"            | **كَمَا** (Kamā - as), **إِيَّاكَ** (Iyyāka - You)<br>**Middle:** **مَٰلِكِ** (Māliki - Master)<br>**End:** **عَلَيْكَ** (‘Alayka - upon you) |
+| ل      | لـ    | ـلـ    | ـل  | Lām  | "l"            | **لِلَّهِ** (Lillāhi - for Allah), **لَكَ** (Laka - to You)<br>**Middle:** **سَلَامُ** (Salāmu - peace)<br>**End:** **رَسُولٌ** (Rasūlun - Messenger) |
+| م      | مـ    | ـمـ    | ـم  | Mīm  | "m"            | **مُحَمَّدٍ** (Muḥammadin - Muhammad), **مِنْ** (Min - from)<br>**Middle:** **أَمْرَ** (Amra - command)<br>**End:** **ٱلْعَٰلَمِينَ** (Al-‘ālamīna - worlds) |
+| ن      | نـ    | ـنـ    | ـن  | Nūn  | "n"            | **نَعْبُدُ** (Na‘budu - we worship), **نَسْتَعِينُ** (Nasta‘īnu - we ask for help)<br>**Middle:** **أَنْعَمْتَ** (An‘amta - You blessed)<br>**End:** **صَالِحِينَ** (Ṣāliḥīna - righteous) |
+| ه      | هـ    | ـهـ    | ـه  | Hāʾ  | "h"            | **هُوَ** (Huwa - He), **هَدَى** (Hadā - He guided)<br>**Middle:** **مُهْتَدٍ** (Muhtadin - guided)<br>**End:** **رَسُولُهُ** (Rasūluhu - His Messenger) |
+| و      | و     | ـو     | ـو  | Wāw  | "w" or "ū"     | **وَٱللَّهِ** (Wa-llāhi - and Allah), **وَرَحْمَةُ** (Wa-raḥmah - and mercy)<br>**Middle:** **مَوْعِدٌ** (Maw‘idun - promise)<br>**End:** **أَحَدٌ** (Aḥadun - One) |
+| ي      | يـ    | ـيـ    | ـي  | Yāʾ  | "y" or "ī"     | **يَوْمِ** (Yawmi - day), **رَبِّي** (Rabbī - my Lord)<br>**Middle:** **بِحَمْدِكَ** (Biḥamdika - with Your praise)<br>**End:** **ذُرِّيَّتِي** (Dhurriyyatī - my descendants) |
